@@ -1,0 +1,56 @@
+@media  screen and (max-width:600px) {
+    .gallery-images {
+        flex-wrap:wrap;
+
+    }
+}
+
+@media  screen   and (max-width:600px) {
+    .card-gallery {
+
+        width:100%!important;
+        margin-top:15px;
+
+      }
+      .card-gallery img {
+          object-position: top;
+      }
+
+      .footer-info .btn { 
+          width:100%;
+
+      }
+
+      .footer-info {
+          width:80%;
+          margin:auto;
+      }
+
+      footer {
+          width:100%;
+      }
+
+      footer ul {
+          width:65%;
+          margin:auto;
+          padding:0px!important;
+      }
+
+      .cards .card.col-md-6 {
+          width:90%!important;
+      }
+
+      .cards {
+          width:90%;
+      }
+      .arianna {
+          width:90%;
+      }
+
+
+}
+
+
+
+
+

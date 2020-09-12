@@ -1,0 +1,145 @@
+body {
+    margin:0px;
+    padding:0px;
+
+}
+
+header nav {
+    width:65%;
+    margin:auto;
+    
+}
+
+header .left a  {
+ font-family:  'Open Sans', sans-serif;
+ font-size: 13px;
+ font-weight: 400;
+ margin-right:20px;
+
+}
+
+.arianna {
+    width:65%;
+    margin:auto;
+    text-align: center;
+}
+
+.arianna img {
+    width:96%;
+
+}
+
+.arianna h1 {
+    font-family: 'PT Serif', serif;
+    font-size:60px;
+    color:#2F2E2E;
+    font-weight:200;
+    font-style: italic;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.cards {
+    width:62%;
+    margin:auto;
+    padding-top:10px;
+}
+
+.cards .card {
+    margin-top:30px;
+}
+
+.gallery-images {
+    
+    display: flex;
+    margin-top:50px;
+    margin-bottom: 50px;
+    
+}
+
+.gallery-images .card-gallery {
+    width:25%;
+    position: relative;
+    margin-left:10px;
+}
+
+.gallery-images .info {
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    background:rgba(0,0,0,.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.gallery-images .info:hover {
+    opacity: 1;
+}
+
+.gallery-images .info a {
+    width:90%;
+    text-align:center;
+    color: white;
+    font-size: 15px;
+    line-height:22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gallery-images img {
+    width:100%;
+    max-height: 288px;
+    object-fit: cover;
+}
+footer {
+    width:30%;
+    margin:auto;
+    text-align: center;
+}
+
+.footer-info .btn-suscribe {
+    width:455px;
+    color: #fff;
+    background:rgb(70, 66, 66);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom:80px;
+}
+
+ 
+.footer-info ul {
+    display:flex;
+    list-style: none;
+    padding: 0px 120px;
+
+}
+
+.footer-info i {
+    color:grey;
+    font-size:20px;
+}
+
+.footer-info span {
+    font-family:  'Open Sans', sans-serif;
+    font-style: italic;
+    color: grey;
+    
+}
+
+.footer-info  form {
+    margin-top:10px;
+   
+}
+
+.footer-info p {
+
+    color: grey;
+    margin-top:50px;
+    font-size:13px;
+
+}
